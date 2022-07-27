@@ -1,0 +1,65 @@
+body{
+    background: rgba(207,207,207,255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: x-large;
+}
+/*container*/
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 75vh;
+    background-image:url("static/img/circle.png")
+    
+}
+
+#izq {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+#drch {
+    background-color: #ffffff;
+}
+/*boton*/
+.btn {
+    color: #ffffff;
+    font-size: 30px;
+    background: #D65252;
+    padding: 10px 20px 10px 20px;
+    border: solid #D65252 2px;
+    text-decoration: none;
+    max-width: 500px;
+    margin-top: 5%;
+    margin-left: 16%;
+  }
+  
+.btn:hover {
+    background: #b34141;
+    text-decoration: none;
+}
+
+/* imagen logo */
+#img-logo{
+    max-width: 268px;
+    max-height: 379px;
+    margin-left: 8%;
+}
+
+#img-logo2{
+    position: fixed;
+    top: -10%;
+    right: -19%;
+    width: 1000px;
+    height: 800px;
+    background-position: 50% -10%;
+}
+.texto-encima{
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
